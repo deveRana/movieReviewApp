@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.navbarContainer{
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #373b69;
+    box-shadow: 0px -1px 30px rgba(0, 0, 0,0.7);
+}
+
+.leftDiv{
+    width: 50vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftDiv h2{
+    font-size: 25px;
+    background: -webkit-linear-gradient( -135deg ,  #0fbcf9  , white  , #0fbcf9  );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rightDiv{
+    width: 50vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightDiv input {
+    border:none;
+    outline: none;
+    font-size: 22px;
+    padding: 5px 8px;
+    border-radius: 7px;
+    box-shadow: inset -1px -1px 3px white , inset 1px 1px 3px white;
+    background-color: transparent;
+    color: #d1d8e0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.rightDiv input:focus{
+    background-color: #22254b;
+}
+
+.rightDiv button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 15px;
+}
